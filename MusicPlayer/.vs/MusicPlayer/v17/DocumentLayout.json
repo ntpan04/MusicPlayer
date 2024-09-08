@@ -1,0 +1,273 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SEM5-FA24\\PRN212\\GROUPPROJECT\\MusicPlayer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE065B2-F7B9-4CF5-82E8-74F3D667043E}|MusicPlayer.DAL\\MusicPlayer.DAL.csproj|d:\\sem5-fa24\\prn212\\groupproject\\musicplayer\\musicplayer.dal\\repositories\\songrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE065B2-F7B9-4CF5-82E8-74F3D667043E}|MusicPlayer.DAL\\MusicPlayer.DAL.csproj|solutionrelative:musicplayer.dal\\repositories\\songrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE065B2-F7B9-4CF5-82E8-74F3D667043E}|MusicPlayer.DAL\\MusicPlayer.DAL.csproj|d:\\sem5-fa24\\prn212\\groupproject\\musicplayer\\musicplayer.dal\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE065B2-F7B9-4CF5-82E8-74F3D667043E}|MusicPlayer.DAL\\MusicPlayer.DAL.csproj|solutionrelative:musicplayer.dal\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE065B2-F7B9-4CF5-82E8-74F3D667043E}|MusicPlayer.DAL\\MusicPlayer.DAL.csproj|d:\\sem5-fa24\\prn212\\groupproject\\musicplayer\\musicplayer.dal\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE065B2-F7B9-4CF5-82E8-74F3D667043E}|MusicPlayer.DAL\\MusicPlayer.DAL.csproj|solutionrelative:musicplayer.dal\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE065B2-F7B9-4CF5-82E8-74F3D667043E}|MusicPlayer.DAL\\MusicPlayer.DAL.csproj|d:\\sem5-fa24\\prn212\\groupproject\\musicplayer\\musicplayer.dal\\models\\include.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE065B2-F7B9-4CF5-82E8-74F3D667043E}|MusicPlayer.DAL\\MusicPlayer.DAL.csproj|solutionrelative:musicplayer.dal\\models\\include.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{990112E0-69B8-4F68-8818-906B856CF828}|MusicPlayer\\MusicPlayer.csproj|d:\\sem5-fa24\\prn212\\groupproject\\musicplayer\\musicplayer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{990112E0-69B8-4F68-8818-906B856CF828}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{990112E0-69B8-4F68-8818-906B856CF828}|MusicPlayer\\MusicPlayer.csproj|d:\\sem5-fa24\\prn212\\groupproject\\musicplayer\\musicplayer\\detailwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{990112E0-69B8-4F68-8818-906B856CF828}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\detailwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{990112E0-69B8-4F68-8818-906B856CF828}|MusicPlayer\\MusicPlayer.csproj|d:\\sem5-fa24\\prn212\\groupproject\\musicplayer\\musicplayer\\detailwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{990112E0-69B8-4F68-8818-906B856CF828}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\detailwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB73E30-7977-466A-A01E-1FB94D1183E0}|MusicPlayer.BLL\\MusicPlayer.BLL.csproj|d:\\sem5-fa24\\prn212\\groupproject\\musicplayer\\musicplayer.bll\\services\\songservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB73E30-7977-466A-A01E-1FB94D1183E0}|MusicPlayer.BLL\\MusicPlayer.BLL.csproj|solutionrelative:musicplayer.bll\\services\\songservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{990112E0-69B8-4F68-8818-906B856CF828}|MusicPlayer\\MusicPlayer.csproj|d:\\sem5-fa24\\prn212\\groupproject\\musicplayer\\musicplayer\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{990112E0-69B8-4F68-8818-906B856CF828}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{990112E0-69B8-4F68-8818-906B856CF828}|MusicPlayer\\MusicPlayer.csproj|d:\\sem5-fa24\\prn212\\groupproject\\musicplayer\\musicplayer\\registerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{990112E0-69B8-4F68-8818-906B856CF828}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\registerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{990112E0-69B8-4F68-8818-906B856CF828}|MusicPlayer\\MusicPlayer.csproj|d:\\sem5-fa24\\prn212\\groupproject\\musicplayer\\musicplayer\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{990112E0-69B8-4F68-8818-906B856CF828}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{990112E0-69B8-4F68-8818-906B856CF828}|MusicPlayer\\MusicPlayer.csproj|d:\\sem5-fa24\\prn212\\groupproject\\musicplayer\\musicplayer\\registerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{990112E0-69B8-4F68-8818-906B856CF828}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\registerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{990112E0-69B8-4F68-8818-906B856CF828}|MusicPlayer\\MusicPlayer.csproj|d:\\sem5-fa24\\prn212\\groupproject\\musicplayer\\musicplayer\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{990112E0-69B8-4F68-8818-906B856CF828}|MusicPlayer\\MusicPlayer.csproj|solutionrelative:musicplayer\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 112,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountRepository.cs",
+              "DocumentMoniker": "D:\\SEM5-FA24\\PRN212\\GROUPPROJECT\\MusicPlayer\\MusicPlayer.DAL\\Repositories\\AccountRepository.cs",
+              "RelativeDocumentMoniker": "MusicPlayer.DAL\\Repositories\\AccountRepository.cs",
+              "ToolTip": "D:\\SEM5-FA24\\PRN212\\GROUPPROJECT\\MusicPlayer\\MusicPlayer.DAL\\Repositories\\AccountRepository.cs",
+              "RelativeToolTip": "MusicPlayer.DAL\\Repositories\\AccountRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T15:21:02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Account.cs",
+              "DocumentMoniker": "D:\\SEM5-FA24\\PRN212\\GROUPPROJECT\\MusicPlayer\\MusicPlayer.DAL\\Models\\Account.cs",
+              "RelativeDocumentMoniker": "MusicPlayer.DAL\\Models\\Account.cs",
+              "ToolTip": "D:\\SEM5-FA24\\PRN212\\GROUPPROJECT\\MusicPlayer\\MusicPlayer.DAL\\Models\\Account.cs",
+              "RelativeToolTip": "MusicPlayer.DAL\\Models\\Account.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T10:55:02.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Include.cs",
+              "DocumentMoniker": "D:\\SEM5-FA24\\PRN212\\GROUPPROJECT\\MusicPlayer\\MusicPlayer.DAL\\Models\\Include.cs",
+              "RelativeDocumentMoniker": "MusicPlayer.DAL\\Models\\Include.cs",
+              "ToolTip": "D:\\SEM5-FA24\\PRN212\\GROUPPROJECT\\MusicPlayer\\MusicPlayer.DAL\\Models\\Include.cs",
+              "RelativeToolTip": "MusicPlayer.DAL\\Models\\Include.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T10:54:51.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DetailWindow.xaml.cs",
+              "DocumentMoniker": "D:\\SEM5-FA24\\PRN212\\GROUPPROJECT\\MusicPlayer\\MusicPlayer\\DetailWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\DetailWindow.xaml.cs",
+              "ToolTip": "D:\\SEM5-FA24\\PRN212\\GROUPPROJECT\\MusicPlayer\\MusicPlayer\\DetailWindow.xaml.cs",
+              "RelativeToolTip": "MusicPlayer\\DetailWindow.xaml.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAowFMAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T01:39:45.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SongRepository.cs",
+              "DocumentMoniker": "D:\\SEM5-FA24\\PRN212\\GROUPPROJECT\\MusicPlayer\\MusicPlayer.DAL\\Repositories\\SongRepository.cs",
+              "RelativeDocumentMoniker": "MusicPlayer.DAL\\Repositories\\SongRepository.cs",
+              "ToolTip": "D:\\SEM5-FA24\\PRN212\\GROUPPROJECT\\MusicPlayer\\MusicPlayer.DAL\\Repositories\\SongRepository.cs",
+              "RelativeToolTip": "MusicPlayer.DAL\\Repositories\\SongRepository.cs",
+              "ViewState": "AQIAAH4AAAAAAAAAAAAWwIYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T01:50:12.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\SEM5-FA24\\PRN212\\GROUPPROJECT\\MusicPlayer\\MusicPlayer\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\SEM5-FA24\\PRN212\\GROUPPROJECT\\MusicPlayer\\MusicPlayer\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MusicPlayer\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAJ0BAAAAAAAAAAAswJMAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T01:39:49.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DetailWindow.xaml",
+              "DocumentMoniker": "D:\\SEM5-FA24\\PRN212\\GROUPPROJECT\\MusicPlayer\\MusicPlayer\\DetailWindow.xaml",
+              "RelativeDocumentMoniker": "MusicPlayer\\DetailWindow.xaml",
+              "ToolTip": "D:\\SEM5-FA24\\PRN212\\GROUPPROJECT\\MusicPlayer\\MusicPlayer\\DetailWindow.xaml",
+              "RelativeToolTip": "MusicPlayer\\DetailWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-23T01:39:44.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "D:\\SEM5-FA24\\PRN212\\GROUPPROJECT\\MusicPlayer\\MusicPlayer\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "MusicPlayer\\LoginWindow.xaml",
+              "ToolTip": "D:\\SEM5-FA24\\PRN212\\GROUPPROJECT\\MusicPlayer\\MusicPlayer\\LoginWindow.xaml",
+              "RelativeToolTip": "MusicPlayer\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-23T01:39:46.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SongService.cs",
+              "DocumentMoniker": "D:\\SEM5-FA24\\PRN212\\GROUPPROJECT\\MusicPlayer\\MusicPlayer.BLL\\Services\\SongService.cs",
+              "RelativeDocumentMoniker": "MusicPlayer.BLL\\Services\\SongService.cs",
+              "ToolTip": "D:\\SEM5-FA24\\PRN212\\GROUPPROJECT\\MusicPlayer\\MusicPlayer.BLL\\Services\\SongService.cs",
+              "RelativeToolTip": "MusicPlayer.BLL\\Services\\SongService.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAQwEQAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T01:49:54.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegisterWindow.xaml",
+              "DocumentMoniker": "D:\\SEM5-FA24\\PRN212\\GROUPPROJECT\\MusicPlayer\\MusicPlayer\\RegisterWindow.xaml",
+              "RelativeDocumentMoniker": "MusicPlayer\\RegisterWindow.xaml",
+              "ToolTip": "D:\\SEM5-FA24\\PRN212\\GROUPPROJECT\\MusicPlayer\\MusicPlayer\\RegisterWindow.xaml",
+              "RelativeToolTip": "MusicPlayer\\RegisterWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-23T01:39:50.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\SEM5-FA24\\PRN212\\GROUPPROJECT\\MusicPlayer\\MusicPlayer\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MusicPlayer\\MainWindow.xaml",
+              "ToolTip": "D:\\SEM5-FA24\\PRN212\\GROUPPROJECT\\MusicPlayer\\MusicPlayer\\MainWindow.xaml",
+              "RelativeToolTip": "MusicPlayer\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-23T01:39:48.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RegisterWindow.xaml.cs",
+              "DocumentMoniker": "D:\\SEM5-FA24\\PRN212\\GROUPPROJECT\\MusicPlayer\\MusicPlayer\\RegisterWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\RegisterWindow.xaml.cs",
+              "ToolTip": "D:\\SEM5-FA24\\PRN212\\GROUPPROJECT\\MusicPlayer\\MusicPlayer\\RegisterWindow.xaml.cs",
+              "RelativeToolTip": "MusicPlayer\\RegisterWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T01:39:51.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "D:\\SEM5-FA24\\PRN212\\GROUPPROJECT\\MusicPlayer\\MusicPlayer\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MusicPlayer\\LoginWindow.xaml.cs",
+              "ToolTip": "D:\\SEM5-FA24\\PRN212\\GROUPPROJECT\\MusicPlayer\\MusicPlayer\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "MusicPlayer\\LoginWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T01:39:47.325Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 636,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5a4e9529-b6a0-46b5-be4f-0f0b239bc0eb}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

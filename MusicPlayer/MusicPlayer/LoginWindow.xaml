@@ -1,0 +1,57 @@
+﻿<Window x:Name="Window" x:Class="MusicPlayer.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MusicPlayer"
+        mc:Ignorable="d"
+        Title="LoginWindow" Height="500" Width="800" 
+        ResizeMode="NoResize"
+        SizeToContent="Manual"
+        WindowStyle="SingleBorderWindow"
+        WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <ImageBrush Stretch="Fill" ImageSource="/870.jpg"/>
+    </Window.Background>
+
+    <Grid Margin="-17,0,17,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="236*"/>
+            <RowDefinition Height="199*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="63*"/>
+            <ColumnDefinition Width="65*"/>
+            <ColumnDefinition Width="722*"/>
+        </Grid.ColumnDefinitions>
+
+        <Rectangle HorizontalAlignment="Left" Height="354" Stroke="Black" VerticalAlignment="Top" Width="574" Fill="Transparent" RadiusX="20" RadiusY="20" Margin="23,70,0,0" Grid.Column="2" Grid.RowSpan="2"/>
+
+        <Label Content="Log in" HorizontalAlignment="Left" Height="60" Margin="195,77,0,0" VerticalAlignment="Top" Width="230" FontWeight="ExtraBold" FontSize="40" Foreground="#fff" HorizontalContentAlignment="Center" Grid.Column="2"/>
+
+        <Label Content="User Name" HorizontalAlignment="Left" Height="45" Margin="68,182,0,0" VerticalAlignment="Top" Width="107" Foreground="#fff" Grid.Column="2"/>
+
+        <TextBox x:Name="UserNameTextBox" HorizontalAlignment="Left" Height="45" Margin="180,179,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="374" TabIndex="0" Grid.Column="2" Background="#fff" Foreground="Black"/>
+
+        <Label Content="Password" HorizontalAlignment="Left" Height="45" Margin="68,15,0,0" VerticalAlignment="Top" Width="107" Foreground="#fff" Grid.Column="2" Grid.Row="1"/>
+
+        <PasswordBox x:Name="PasswordTextBox" HorizontalAlignment="Left" Height="45"  VerticalAlignment="Top" Width="374" TabIndex="1" Grid.Column="2" Margin="180,13,0,0" Background="#fff" Grid.Row="1" Foreground="Black" FontSize="20" VerticalContentAlignment="Center"/>
+
+        <Button x:Name="LoginButton" Content="Login" HorizontalAlignment="Left" Height="55" Margin="68,103,0,0" VerticalAlignment="Top" Width="230" Foreground="Black" TabIndex="2"  Grid.Column="2" Click="LoginButton_Click" Style="{StaticResource RedButtonStyle}" Background="#fff" Grid.Row="1"/>
+
+        <Button x:Name="QuitButton" Content="Quit" HorizontalAlignment="Left" Height="55" Margin="324,103,0,0" VerticalAlignment="Top" Width="230" Foreground="Black"  TabIndex="3"  Grid.Column="2" Style="{StaticResource RedButtonStyle}" Background="#fff" Grid.Row="1" Click="QuitButton_Click"/>
+
+        <Label Content="By Thanh Tài  " HorizontalAlignment="Left" Height="45" Margin="223,212,0,0" VerticalAlignment="Top" Width="182" Foreground="#fff" Grid.Column="2" Grid.Row="1"/>
+        <TextBlock Grid.Column="2" HorizontalAlignment="Left" Height="23" Margin="136,72,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Don't have account yet? " Foreground="White" VerticalAlignment="Top" Width="174" FontStyle="Italic" FontWeight="DemiBold" FontSize="15" Opacity="1.5"/>
+
+        <Button x:Name="RegisterButton" Grid.Column="2" Content="Register" HorizontalAlignment="Left" Height="22" Margin="337,71,0,0" Grid.Row="1" VerticalAlignment="Top" Width="80" Click="RegisterButton_Click" Style="{StaticResource RedButtonStyle}" FontSize="14
+             " BorderBrush="#00000000" Foreground="Orange" >
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>

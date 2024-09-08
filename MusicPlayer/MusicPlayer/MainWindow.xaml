@@ -1,0 +1,168 @@
+﻿<Window x:Class="MusicPlayer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+        xmlns:local="clr-namespace:MusicPlayer"        
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded" ResizeMode="NoResize" WindowStartupLocation="CenterScreen"
+        >
+
+    <Window.Background>
+        <ImageBrush Stretch="Fill" ImageSource="/870.jpg"/>
+    </Window.Background>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="162*"/>
+            <RowDefinition Height="55*"/>
+        </Grid.RowDefinitions>
+
+        <!--IMPORT BUTTON-->
+        <Button x:Name="ImportButton" Content="Import 📂" HorizontalAlignment="Left" Margin="693,23,0,0" VerticalAlignment="Top" Width="81" Height="36" FontSize="15" Style="{StaticResource MainButtonStyle}" Background="#FF1E1E1E" Click="ImportButton_Click"/>
+
+        <!--DELETE BUTTON-->
+        <Button x:Name="DeleteButton" Content="Delete" HorizontalAlignment="Left" Margin="482,23,0,0" VerticalAlignment="Top" Width="82" FontSize="20" RenderTransformOrigin="-0.639,0.625" Height="36" Click="DeleteButton_Click" Style="{StaticResource MainButtonStyle}" Background="#FF1E1E1E"/>
+
+        <!--UPDATE BUTTON-->
+        <Button x:Name="UpdateButton" Content="Update" HorizontalAlignment="Left" Margin="586,23,0,0" VerticalAlignment="Top" Width="83" FontSize="20" RenderTransformOrigin="-0.639,0.625" Height="36" Style="{StaticResource MainButtonStyle}" Background="#FF1E1E1E" Click="UpdateButton_Click"/>
+
+        <Grid Width="450" Height="50" Margin="126,57,224,3" Grid.Row="1">
+            <!-- Định nghĩa các cột của Grid -->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- REPLAY BUTTON -->
+            <Button x:Name="ReplayButton"
+            Style="{StaticResource playerButton}"
+            Grid.Column="0"
+            Click="ReplayButton_Click">
+                <Icon:PackIconMaterial Kind="Replay" Style="{StaticResource playerButtonIcon}" />
+            </Button>
+
+            <!-- PREVIOUS BUTTON -->
+            <Button x:Name="PreviousButton"
+            Style="{StaticResource playerButton}"
+            Grid.Column="1"
+            Click="PreviousButton_Click">
+                <Icon:PackIconMaterial Kind="SkipPrevious" Style="{StaticResource playerButtonIcon}" />
+            </Button>
+
+            <!-- PLAY OR PAUSE BUTTON -->
+            <Button x:Name="PlayPauseButton"
+            Style="{StaticResource playerButton}"
+            Grid.Column="2"
+            Click="PlayPauseButton_Click">
+                <Icon:PackIconMaterial Kind="Play" Style="{StaticResource playerButtonIcon}" />
+            </Button>
+
+            <!-- NEXT BUTTON -->
+            <Button x:Name="NextButton"
+            Style="{StaticResource playerButton}"
+            Grid.Column="3"
+            Click="NextButton_Click">
+                <Icon:PackIconMaterial Kind="SkipNext" Style="{StaticResource playerButtonIcon}" />
+            </Button>
+
+            <!-- RANDOM PLAY BUTTON -->
+            <Button x:Name="RandomPlayButton"
+            Style="{StaticResource playerButton}"
+            Grid.Column="4"
+            Click="RandomPlayButton_Click">
+                <Icon:PackIconMaterial Kind="Shuffle" Style="{StaticResource playerButtonIcon}" />
+            </Button>
+        </Grid>
+
+        <Grid>
+            <!-- Grid chứa thanh nhạc (nằm sát trên ProgressBar) -->
+            <Grid VerticalAlignment="Bottom" Margin="77,0,-119,-33" Height="38">
+                <Canvas x:Name="MusicCanvas" Background="Transparent" Width="650" Height="50" Margin="0,-12,189,0">
+                    <Canvas x:Name="BarsCanvas" Width="650" Height="50">
+                    </Canvas>
+                </Canvas>
+            </Grid>
+
+            <!-- ProgressBar nằm sát dưới -->
+            <ProgressBar x:Name="p_bar" HorizontalAlignment="Left" Height="22" VerticalAlignment="Bottom" Width="650" Foreground="#FFFAF06F" MouseDown="p_bar_MouseDown" Margin="77,0,0,-55">
+                <ProgressBar.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="PapayaWhip" Offset="0.261"/>
+                        <GradientStop Color="White" Offset="0.641"/>
+                    </LinearGradientBrush>
+                </ProgressBar.Background>
+            </ProgressBar>
+
+            <Label x:Name="SongNameLabel" 
+                Foreground="Yellow"
+                   FontSize="20"
+                   FontWeight="Bold"
+                HorizontalContentAlignment="Center"
+                Margin="445,238,49,0" 
+                VerticalAlignment="Top" 
+                Width="306" 
+                Content=""/>
+            <Label x:Name="ArtistNameLabel" 
+                HorizontalContentAlignment="Center"
+                Foreground="Yellow"
+                FontSize="15"
+                   FontWeight="Normal"
+                Margin="445,275,49,0" 
+                VerticalAlignment="Top" 
+                Width="306" 
+                Content=""/>
+        </Grid>
+
+        <!--SONG'S CURRENT TIME-->
+        <Label x:Name="CurrentTimeLabel" Content="00:00" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="14,0,0,44" Grid.Row="1" Height="35" Width="58" FontSize="14" Foreground="LightGoldenrodYellow"/>
+        <!--SONG'S TOTAL TIME-->
+        <Label x:Name="TotalTimeLabel" Content="00:00" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,10,44" RenderTransformOrigin="0.064,3.317" Grid.Row="1" Height="35" Width="51" FontSize="14" Foreground="LightGoldenrodYellow"/>
+
+
+        <!--DATAGRID LIST SONG-->
+        <DataGrid x:Name="SongDataGrid" HorizontalAlignment="Left" Height="142" Margin="26,113,0,0" VerticalAlignment="Top" Width="374" AutoGenerateColumns="False" IsReadOnly="True" SelectionMode="Single" SelectionChanged="SongDataGrid_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Width="150" Binding="{Binding SongName}"/>
+                <DataGridTextColumn Header="Artist" Width="*" Binding="{Binding Artist}"/>
+            </DataGrid.Columns>
+
+        </DataGrid>
+
+        <!--SONG'S IMAGE-->
+        <Image x:Name="song_img" HorizontalAlignment="Left" Height="147" Margin="482,0,0,0" VerticalAlignment="Center" Width="235" Source="/default_img.jpg" Stretch="Fill"/>
+
+        <TextBox x:Name="SearchTextBox" HorizontalAlignment="Left" Height="36" Margin="26,23,0,0" TextWrapping="Wrap" Text="Search song's name or artist" VerticalAlignment="Top" Width="319" FontSize="20" GotFocus="SearchTextBox_GotFocus" LostFocus="SearchTextBox_LostFocus" Background="WhiteSmoke" Foreground="Black" BorderBrush="Black" BorderThickness="2" FontWeight="Normal"/>
+
+        <Button x:Name="SearchButton" Content="Search" HorizontalAlignment="Left" Height="36" Margin="360,23,0,0" VerticalAlignment="Top" Width="92" FontSize="20" Click="SearchButton_Click" Style="{StaticResource MainButtonStyle}" Background="#FF1E1E1E" RenderTransformOrigin="-0.596,0.701"/>
+        <Button x:Name="AddFavouriteButton" Content="Favourite" HorizontalAlignment="Left" Height="28" Margin="78,266,0,0" VerticalAlignment="Top" Width="65" FontSize="11" Click="AddFavouriteButton_Click" Background="black" Foreground="white"/>
+        <CheckBox x:Name="favouriteCheckBox" Content="Show your favourite song" HorizontalAlignment="Left" Height="36" Margin="186,72,0,0" VerticalAlignment="Top" Width="182" Foreground="WhiteSmoke" ClickMode="Press" IsChecked="False" RenderTransformOrigin="0.5,0.5" Checked="favouriteCheckBox_Checked" Unchecked="favouriteCheckBox_Unchecked" />
+
+        <Button x:Name="RemoveFavouriveButton" Content="Unlike" HorizontalAlignment="Left" Margin="188,264,0,0" VerticalAlignment="Top" Width="92" RenderTransformOrigin="-0.639,0.625" Height="29" Style="{StaticResource MainButtonStyle}" Background="#FF1E1E1E" Click="RemoveFavouriveButton_Click" IsEnabled="False" Visibility="Collapsed"/>
+
+
+        <!--EXIT BUTTON-->
+        <Button x:Name="ExitButton" Content="❌" HorizontalAlignment="Left" Height="49" Margin="754,57,0,0" VerticalAlignment="Top" Width="36" Style="{StaticResource RedButtonStyle}" FontSize="20" BorderBrush="#00000000" Foreground="Red" Click="ExitButton_Click" Grid.Row="1" >
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+
+        <!--USER NAME-->
+        <Label x:Name="UserNameLable" HorizontalAlignment="Left" Height="28" Margin="0,82,0,0" VerticalAlignment="Top" Width="200" Grid.Row="1" FontSize="14" Foreground="LightGoldenrodYellow" Content="User's Music Player"/>
+        <!--SONG NAME-->
+
+
+        <!--VOLUME BAR-->
+        <TextBlock Height="31" Margin="600,0,113,0"  Text="Volume" Grid.Row="1" VerticalAlignment="Bottom" Foreground="White" FontSize="15" RenderTransformOrigin="-0.325,0.316"/>
+        <Slider HorizontalAlignment="Left" Height="31" Margin="581,57,0,0" VerticalAlignment="Top" Width="158" Name="VolumeSlider" Minimum="0" Maximum="1" Value="0.5" TickFrequency="0.1" 
+    IsSnapToTickEnabled="True" ValueChanged="VolumeSlider_ValueChanged" Grid.Row="1"/>
+
+    </Grid>
+</Window>
